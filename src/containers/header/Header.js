@@ -1,6 +1,6 @@
 import React from "react";
-import Language from "./Language";
-import Navbar from "./Navbar";
+import Language from "../../components/header/Language";
+import Navbar from "../../components/header/Navbar";
 
 const Header = () => {
   return (
