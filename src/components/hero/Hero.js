@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 import "swiper/components/pagination/pagination.min.css";
-import { StyleHero } from "../../styles/containers/Hero";
+import { StyleHero } from "../../styles/components/StyleHero";
 import slideImage from "../../assets/images/hero_img_01.png";
 import { Link } from "react-router-dom";
 import SwiperCore, { Pagination } from "swiper/core";

@@ -98,4 +98,8 @@ export const StyleHero = styled.div`
       }
     }
   }
+
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 33px;
+  }
 `;
