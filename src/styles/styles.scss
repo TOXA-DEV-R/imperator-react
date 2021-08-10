@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+button {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
+
+a {
+  text-decoration: none;
+}
+
+.global-title {
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #000000;
+}
+
+.ic {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  mask-position: center center;
+}
+
+.ic_card {
+  mask-image: url("../assets/icons/ic_cart.svg");
+}
+.ic_polygon {
+  mask-image: url("../assets/icons/Polygon.svg");
+}
+.ic_like {
+  mask-image: url("../assets/icons/ic_like.svg");
+}
+.ic_stars {
+  mask-image: url("../assets/icons/ic_stars.svg");
+}
+.ic_truck {
+  mask-image: url("../assets/icons/ic_truck.svg");
+}
+.ic_star-yello {
+  mask-image: url("../assets/icons/ic_star-yello.svg");
+}
+.ic_star-yello-line {
+  mask-image: url("../assets/icons/ic_star-yello-line.svg");
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    width: unset !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+  @for $i from 1 through 12 {
+    .col-sm-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  @for $i from 1 through 12 {
+    .col-md-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  @for $i from 1 through 12 {
+    .col-lg-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+
+  .align-md-unset {
+    align-items: unset;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  @for $i from 1 through 12 {
+    .col-xl-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: #{100% / 12 * $i};
+  }
+}
