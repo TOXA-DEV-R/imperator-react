@@ -5,6 +5,7 @@ export const BasicDiv = styled.div`
     width: 264px;
     margin-top: 32px;
     border-radius: 12px;
+    overflow: hidden;
     &__image {
       width: 100%;
       height: 337px;
@@ -73,6 +74,32 @@ export const BasicDiv = styled.div`
     }
   }
 
+  main {
+    background: #e5e5e5;
+  }
+
+  .discount {
+    height: 470px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffc000;
+    &__title {
+      max-width: 666px;
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.25px;
+      text-align: center;
+      span {
+        font-size: 60px;
+        line-height: 84px;
+      }
+    }
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
