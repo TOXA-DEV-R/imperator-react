@@ -9,33 +9,100 @@ const BestProducts = () => {
   return (
     <StyleBestProducts className="best-products">
       <div className="container">
-        <div className="row">
+        <div className="row justify-between">
           <div className="col-12">
             <h2 className="global-title">Лучшие товары</h2>
           </div>
           <div className="best-products__card card">
-            <div className="card">
-              <div className="card__image">
-                <img src={image_01} alt="img" />
+            <div className="card__image">
+              <img src={image_01} alt="img" />
+            </div>
+            <div className="card__body">
+              <h4 className="card__title">Lorem ipsum dolor sit amet</h4>
+              <p className="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed
+                odio sed nascetur.
+              </p>
+              <div className="card__price">
+                <span>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                </span>
+                <p>855 у.е.</p>
               </div>
-              <div className="card__body">
-                <h4 className="card__title">Lorem ipsum dolor sit amet</h4>
-                <p className="card__text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-                  sed odio sed nascetur.
-                </p>
-                <div className="card__price">
-                  <span>
-                    <i className="ic ic_star-yello"></i>
-                    <i className="ic ic_star-yello"></i>
-                    <i className="ic ic_star-yello"></i>
-                    <i className="ic ic_star-yello-line"></i>
-                    <i className="ic ic_star-yello-line"></i>
-                  </span>
-                  <p>855 у.е.</p>
-                </div>
-                <div className="card__btn">Добавить в корзину</div>
+              <button className="card__btn">Добавить в корзину</button>
+            </div>
+          </div>
+          <div className="best-products__card card">
+            <div className="card__image">
+              <img src={image_02} alt="img" />
+            </div>
+            <div className="card__body">
+              <h4 className="card__title">Lorem ipsum dolor sit amet</h4>
+              <p className="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed
+                odio sed nascetur.
+              </p>
+              <div className="card__price">
+                <span>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                </span>
+                <p>855 у.е.</p>
               </div>
+              <button className="card__btn">Добавить в корзину</button>
+            </div>
+          </div>
+          <div className="best-products__card card">
+            <div className="card__image">
+              <img src={image_03} alt="img" />
+            </div>
+            <div className="card__body">
+              <h4 className="card__title">Lorem ipsum dolor sit amet</h4>
+              <p className="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed
+                odio sed nascetur.
+              </p>
+              <div className="card__price">
+                <span>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                </span>
+                <p>855 у.е.</p>
+              </div>
+              <button className="card__btn">Добавить в корзину</button>
+            </div>
+          </div>
+          <div className="best-products__card card">
+            <div className="card__image">
+              <img src={image_04} alt="img" />
+            </div>
+            <div className="card__body">
+              <h4 className="card__title">Lorem ipsum dolor sit amet</h4>
+              <p className="card__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed
+                odio sed nascetur.
+              </p>
+              <div className="card__price">
+                <span>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                  <i className="ic ic_star-yello-line"></i>
+                </span>
+                <p>855 у.е.</p>
+              </div>
+              <button className="card__btn">Добавить в корзину</button>
             </div>
           </div>
         </div>

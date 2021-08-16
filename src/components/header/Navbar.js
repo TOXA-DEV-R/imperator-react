@@ -14,7 +14,7 @@ const Navbar = () => {
           </div>
           <div className="col-auto">
             <div className="navbar-links">
-              <Link to="/home" className="navbar-links__link">
+              <Link to="/" className="navbar-links__link">
                 Главная
               </Link>
               <Link to="/about" className="navbar-links__link">

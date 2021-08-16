@@ -1,6 +1,105 @@
 import styled from "styled-components";
 
 export const BasicDiv = styled.div`
+  .card {
+    width: 264px;
+    margin-top: 32px;
+    border-radius: 12px;
+    overflow: hidden;
+    &__image {
+      width: 100%;
+      height: 337px;
+      img {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+    }
+    &__body {
+      padding: 8px 13px;
+      background-color: #fff;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      color: #000000;
+    }
+    &__text {
+      margin-top: 8px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 140%;
+      letter-spacing: 0.4px;
+      color: #000000;
+    }
+    &__price {
+      display: flex;
+      justify-content: space-between;
+      span {
+        margin-top: 8px;
+        display: block;
+        .ic {
+          width: 12px;
+          height: 12px;
+          background-color: #ffc000;
+          cursor: pointer;
+        }
+      }
+      p {
+        margin-top: 4px;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 140%;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #000000;
+      }
+    }
+    &__btn {
+      width: 100%;
+      height: 36px;
+      margin-top: 12px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 0.75px;
+      text-transform: uppercase;
+      background: #ffc000;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+  }
+
+  main {
+    background: #e5e5e5;
+  }
+
+  .discount {
+    height: 470px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffc000;
+    &__title {
+      max-width: 666px;
+      margin: 0 auto;
+      font-weight: bold;
+      font-size: 34px;
+      line-height: 140%;
+      text-align: center;
+      letter-spacing: 0.25px;
+      text-align: center;
+      span {
+        font-size: 60px;
+        line-height: 84px;
+      }
+    }
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
